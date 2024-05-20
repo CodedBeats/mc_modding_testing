@@ -1,0 +1,7 @@
+{
+  "varients": {
+    "": {
+      "model": "testing_mod:block/example_block"
+    }
+  }
+}

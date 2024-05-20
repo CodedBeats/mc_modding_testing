@@ -1,3 +1,4 @@
 {
-  "item.testing_mod.example_item": "Example Item"
+  "item.testing_mod.example_item": "Example Item",
+  "block.testing_mod.example_block": "Example Block"
 }

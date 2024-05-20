@@ -1,5 +1,6 @@
 package io.github.codedbeats.testing_mod;
 
+import io.github.codedbeats.testing_mod.init.BlockInit;
 import io.github.codedbeats.testing_mod.init.ItemInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -14,5 +15,8 @@ public class TestingMod {
 
         // add items register to bus
         ItemInit.ITEMS.register(bus);
+
+        // add blocks register to bus
+        BlockInit.BLOCKS.register(bus);
     }
 }
